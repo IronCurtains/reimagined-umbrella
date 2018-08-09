@@ -585,5 +585,11 @@ spriteTypes = {
 		name = "GFX_idea_Yug_Support_5"
 		texturefile = "gfx/interface/ideas/YUG/Yug_Support_5.dds"
 	}
+
+	#Bulgaria
+	spriteType = {
+		name = "GFX_idea_BUL_VMRO"
+		texturefile = "gfx/interface/ideas/BUL/BUL_VMRO.dds"
+	}
 		
 }

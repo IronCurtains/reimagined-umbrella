@@ -3,7 +3,11 @@
 oob = "BUL"
 
 add_ideas = {
-	limited_conscription
+	BUL_Czar_Kyril
+	BUL_Civil_war_recovery
+	BUL_VMRO_Question
+	BUL_Subversive_Elements
+	limited_exports
 }
 
 set_technology = {
@@ -18,57 +22,68 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		leninist = {
-			popularity = 0
-		}
-		marxist = {
-			popularity = 0
-		}
-		revolutionary_socialist = {
-			popularity = 0
-		}
-		democratic_socialist = {
-			popularity = 0
-		}
-		social_democrat = {
-			popularity = 0
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		liberal_conservative = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-		    popularity = 100
-		}
-		right_wing_populist = {
-			popularity = 0
-		}
-		national_syndicalist = {
-			popularity = 0
-		}
-		national_corporatist = {
-			popularity = 0
-		}
-	}
+        leninist = {
+            popularity = 3
+        }
+        marxist = {
+            popularity = 7
+        }
+        revolutionary_socialist = {
+            popularity = 2
+        }
+        democratic_socialist = {
+            popularity = 5
+        }
+        social_democrat = {
+            popularity = 13
+        }
+        social_liberal = {
+            popularity = 6
+        }
+        liberal_conservative = {
+            popularity = 3
+        }
+        social_conservative = {
+            popularity = 5
+        }
+        authoritarian_democrat = {
+            popularity = 14
+        }
+        right_wing_populist = {
+            popularity = 25
+        }
+        national_syndicalist = {
+            popularity = 11
+        }
+        national_corporatist = {
+            popularity = 6
+        }
+    }
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = right_wing_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 
+#create_country_leader = {
+#	name = "Boris III"
+#	desc = "POLITICS_BORIS_III_DESC"
+#	picture = "Portrait_Boris_III_SP.dds"
+#	expire = "1965.1.1"
+#	ideology = authoritarian_democrat_subtype
+#	traits = {
+#		#
+#	}
+#}
+
 create_country_leader = {
-	name = "Boris III"
-	desc = "POLITICS_BORIS_III_DESC"
-	picture = "Portrait_Boris_III_SP.dds"
+	name = "Valko Chervenkov"
+	desc = "POLITICS_CHERVENKOV_DESC"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = leninist_subtype
 	traits = {
 		#
 	}
@@ -77,7 +92,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Georgi Dimitrov"
 	desc = "POLITICS_GEORGI_DIMITROV_DESC"
-	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = marxist_subtype
 	traits = {
@@ -86,9 +101,108 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hristo Lukov"
-	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "GFX_Portrait_bulgaria_hristo_lukov"
+	name = "Anton Yugov"
+	desc = "POLITICS_YUGOV_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yanko Sakazov"
+	desc = "POLITICS_SAKAZOV_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Georgi Traykov"
+	desc = "POLITICS_TRAYKOV_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nikola Mushanov"
+	desc = "POLITICS__DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Malinov"
+	desc = "POLITICS_MALINOV_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Andrey Lyapchev"
+	desc = "POLITICS_LYAPCHEV_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Czar Kyril l"
+	desc = "POLITICS_KYRIL_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aleksandar Tsankov"
+	desc = "POLITICS_TSANKOV_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kimon Georgiev"
+	desc = "POLITICS_GEORGIEV_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = national_syndicalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Petar Gabrovski"
+	desc = "POLITICS_GABROVSKI_DESC"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
 	traits = {
@@ -96,6 +210,7 @@ create_country_leader = {
 	}
 }
 
+#Field marshal
 create_corps_commander = {
 	name = "Vasil Tenev Boydev"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"

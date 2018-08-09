@@ -1,0 +1,65 @@
+ideas = {
+
+#################
+# Bulgaria Ideas #
+#################
+
+	country = {
+	
+	#Starting
+	BUL_Czar_Kyril = {
+		
+		picture = WIP
+
+		allowed = {
+			original_tag = BUL
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			stability_factor = 0.05
+			political_power_gain = -0.10
+		}
+	}
+	BUL_Civil_war_recovery = {
+		
+		picture = great_depression
+
+		allowed = {
+			original_tag = BUL
+		}
+	
+		removal_cost = -1
+
+		modifier = {
+			consumer_goods_factor = 0.15
+			production_speed_industrial_complex_factor = -0.20
+			production_speed_arms_factory_factor = -0.20
+			production_speed_infrastructure_factor = -0.20
+			war_support_factor = -0.25
+		}
+	}
+	BUL_VMRO_Question = {
+
+        picture = BUL_VMRO
+
+        allowed = {
+			original_tag = BUL
+		}
+	
+		removal_cost = -1
+
+        modifier = {
+		    political_power_gain = 0.05
+		    stability_factor = -0.10
+		}
+	}
+	BUL_Subversive_Elements = {
+            picture = Comintern_logo
+            modifier = {
+			stability_factor = -0.10
+        }
+    }
+	
+}

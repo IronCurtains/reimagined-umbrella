@@ -1,0 +1,57 @@
+﻿l_english:
+
+### Parties ###
+
+BUL_leninist_party:0 "BKP"
+BUL_leninist_party_long:0 "Bâlgarska Komunisticheska Partiya"
+BUL_marxist_party:0 "BKP"
+BUL_marxist_party_long:0 "Bâlgarska Komunisticheska Partiya"
+BUL_revolutionary_socialist_party:0 "BKP"
+BUL_revolutionary_socialist_party_long:0 "Bâlgarska Komunisticheska Partiya"
+BUL_democratic_socialist_party:0 "BSDP"
+BUL_democratic_socialist_party_long:0 "Balgarska Sotsialdemokraticheska Partiya"
+BUL_social_democrat_party:0 "BZNS"
+BUL_social_democrat_party_long:0 "Boelgarski Zemedelski Naroden Sojoez (Left Wing)"
+BUL_social_liberal_party:0 "BZNS"
+BUL_social_liberal_party_long:0 "Boelgarski Zemedelski Naroden Sojoez (Right Wing)"
+BUL_liberal_conservative_party:0 "Demokraticheski Sgovor"
+BUL_social_conservative_party:0 "Naroden Sgovor"
+BUL_authoritarian_democrat_party:0 "Sakskoburggotski Dynasty"
+BUL_right_wing_populist_party:0 "Voeno Pravitelstvo"
+BUL_national_syndicalist_party:0 "Zveno"
+BUL_national_corporatist_party:0 "Ratniks"
+
+### Events ###
+
+
+
+### National Foci ###
+
+
+
+
+### Ideas ###
+BUL_Czar_Kyril:0 "Czar Kyril I"
+BUL_Czar_Kyril_desc:0 "With Ferdinand I exiled and Boris dead, Kyril I became the new Czar of Bulgaria. Despite having no real power and being more of a pawn in the hands of Tsankov, Czar Kyril remains a major figure, albeit quite controversial."
+BUL_VMRO_Question:0 "VMRO question"
+BUL_VMRO_Question_desc:0 "The VMRO has been vital to our current government and the anti-communist cause, however the organisation has also caused multiple problems. The war-weary people of Bulgaria don't see the need for all the murder and pain the VMRO caused. On top of that they have often began skirmishes with the Serbian border police which has lead to a deterioration in relation. Tsankov's faction is divided about the VMRO question."
+BUL_Civil_war_recovery:0 "Bulgarian Civil War Recovery"
+BUL_Civil_war_recovery_desc:0 "The Bulgarian Civil War (1924-1925) made a giant scar on the Bulgarian economy, destroying much of the industry and devastating the countryside. Small Attempts have been made to rebuild the nation’s industry, but these attempts were too small to restore Bulgaria’s former industry sector. The farmer sector took a big hit too, damaging our nation’s ability to produce food."
+BUL_Subversive_Elements:0 "Subversive Elements"
+BUL_Subversive_Elements_desc:0 "The communist party of Bulgaria in exile still remains a threat to our current government. Despite constant purges and terrors the taint of Bolshevism remains, trying to spread their ideals in Bulgaria." 
+
+
+
+
+
+### Ministers ###
+
+# Head of Government #
+
+
+# Foreign Minister #
+
+# Economy Minister #
+
+
+# Security Minister # 
